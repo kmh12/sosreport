@@ -1,0 +1,5 @@
+---
+- name: sos report collect
+  host: z81,z82
+  tasks: 
+    
