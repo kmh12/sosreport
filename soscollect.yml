@@ -1,5 +1,6 @@
----
-- name: sos report collect
-  host: z81,z82
-  tasks: 
-    
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
